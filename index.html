@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NETFLIXX | Our Story</title>
+    <meta
+      name="description"
+      content="A cinematic, streaming-style love story built from your favorite memories."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=20260506-2012" />
+  </head>
+  <body>
+    <div class="page-aurora aurora-left"></div>
+    <div class="page-aurora aurora-right"></div>
+    <div class="page-aurora aurora-bottom"></div>
+    <div class="page-noise"></div>
+
+    <div id="app" class="app-shell">
+        <div id="loadingScreen" class="loading-screen">
+          <div class="brand-lockup">
+            <span class="brand-word">NETFLIXX</span>
+            <span class="brand-subtitle">Our Story</span>
+          </div>
+          <p class="loading-copy">Loading your private premiere...</p>
+        </div>
+
+      <section id="introScreen" class="screen intro-screen startup-screen hidden">
+        <div class="startup-stage">
+          <span class="startup-red-fill" aria-hidden="true"></span>
+          <div class="startup-logo" aria-hidden="true">
+            <span class="startup-tunnel tunnel-left"></span>
+            <span class="startup-tunnel tunnel-center"></span>
+            <span class="startup-tunnel tunnel-right"></span>
+            <span class="startup-beam beam-left"></span>
+            <span class="startup-beam beam-right"></span>
+            <span class="startup-letter">N</span>
+            <span class="startup-glow"></span>
+          </div>
+          <div class="startup-copy">
+            <p class="eyebrow">A Private Premiere</p>
+            <h1 id="introHeadline">A little surprise, now streaming.</h1>
+            <p id="introSubheadline" class="intro-copy"></p>
+            <button id="enterButton" class="button button-primary" type="button">
+              Play Intro
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="profileScreen" class="screen profile-screen hidden">
+        <div class="profile-stage">
+          <div class="profile-header">
+            <p class="eyebrow">Who’s Watching?</p>
+            <h2>Pick the chapter you want to watch first.</h2>
+            <p class="profile-copy">
+              Three milestones, one very sweet story, and all the moments that made us feel like
+              us.
+            </p>
+          </div>
+          <div id="profileGrid" class="profile-grid"></div>
+        </div>
+      </section>
+
+      <section id="browseScreen" class="screen browse-screen hidden">
+        <header class="topbar">
+          <button id="brandButton" class="brand-button" type="button">
+            <span class="brand-word brand-word-small">NETFLIXX</span>
+          </button>
+          <div id="monthTabs" class="month-tabs"></div>
+          <button id="returnToProfiles" class="pill-button" type="button">
+            All Months
+          </button>
+        </header>
+
+        <main class="browse-main">
+          <section id="heroSection" class="hero-section"></section>
+          <section id="detailsRibbon" class="details-ribbon"></section>
+          <section id="gallerySection" class="gallery-section"></section>
+        </main>
+      </section>
+
+      <div
+        id="detailModal"
+        class="detail-modal hidden"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <div id="modalBackdrop" class="detail-backdrop"></div>
+        <div class="detail-panel">
+          <button id="closeModal" class="detail-close" type="button" aria-label="Close player">
+            ×
+          </button>
+          <div class="detail-media-shell">
+            <video
+              id="modalVideo"
+              class="detail-video hidden"
+              controls
+              playsinline
+              preload="metadata"
+            ></video>
+            <img id="modalImage" class="detail-image hidden" alt="" />
+            <div id="modalFallback" class="detail-fallback">
+              <div class="detail-fallback-mark">♡</div>
+              <p>No photo or video for this memory yet.</p>
+              <span>Add media to this month folder and refresh the site.</span>
+            </div>
+          </div>
+          <div class="detail-copy">
+            <p id="modalKicker" class="detail-kicker"></p>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription" class="detail-description"></p>
+            <div class="detail-actions">
+              <button id="playAnotherButton" class="button button-primary" type="button">
+                Play Another Clip
+              </button>
+              <button id="closeDetailButton" class="button button-secondary" type="button">
+                Back To Gallery
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="toast" class="toast hidden" aria-live="polite"></div>
+    </div>
+
+    <script type="module" src="app.js?v=20260506-2012"></script>
+  </body>
+</html>

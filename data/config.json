@@ -1,0 +1,225 @@
+{
+  "site": {
+    "brand": "NETFLIXX",
+    "title": "Our Story",
+    "headline": "A little surprise, now streaming.",
+    "subheadline": "Three chapters, too many butterflies to count, and a little red-screen love story made just for us."
+  },
+  "months": [
+    {
+      "id": "month-1",
+      "label": "First Month",
+      "shortLabel": "01",
+      "tagline": "The pilot episode of us",
+      "description": "The first month where everything felt brand new, a little unreal, and way too cute to stay undocumented.",
+      "highlight": "Soft-launching forever",
+      "status": "Butterflies at full volume",
+      "previewTitle": "The Beginning We Keep Rewatching",
+      "previewCaption": "First smiles, first favorites, and the chapter that started the whole series."
+    },
+    {
+      "id": "month-3",
+      "label": "Third Month",
+      "shortLabel": "03",
+      "tagline": "Birthday, Diwali, Halloween, and home",
+      "description": "Month three ran from Ash's birthday into Diwali lights, Halloween pumpkins, study dates, car cuddles, and the first hints of winter.",
+      "highlight": "October to November, fully booked",
+      "status": "Festival episode with bonus cuddles",
+      "previewTitle": "Halloween Night Became The Poster",
+      "previewCaption": "The pumpkin-lit scene that somehow sums up the whole month: playful, cozy, and very us.",
+      "profileImage": "media/month-3/images/profile.jpg",
+      "heroImage": "media/month-3/images/hero.jpg",
+      "items": [
+        {
+          "kicker": "Oct 03",
+          "title": "Ash's Birthday Flowers",
+          "caption": "Birthday night, flowers in hand, cake on her nose, and the cutest start to October.",
+          "image": "media/month-3/images/01-ash-birthday-flowers.jpg"
+        },
+        {
+          "kicker": "Oct 03",
+          "title": "Birthday Car Selfie",
+          "caption": "Dressed up, glowing, and ready for the birthday episode.",
+          "image": "media/month-3/images/02-birthday-car-selfie.jpg"
+        },
+        {
+          "kicker": "Oct 03",
+          "title": "Dinner Drinks And Hand Holds",
+          "caption": "Birthday dinner turned into one of those tiny hand-hold scenes worth pausing.",
+          "image": "media/month-3/images/03-birthday-dinner-hands.jpg"
+        },
+        {
+          "kicker": "Oct 04",
+          "title": "Mirror Glow After Midnight",
+          "caption": "That dressed-up mirror selfie from the night everything looked cinematic.",
+          "image": "media/month-3/images/04-after-midnight-mirror.jpg"
+        },
+        {
+          "kicker": "Oct 16",
+          "title": "Library Seat Steal",
+          "caption": "Study date energy, headphones on, pretending not to be completely distracted.",
+          "image": "media/month-3/images/05-library-seat-steal.jpg"
+        },
+        {
+          "kicker": "Oct 16",
+          "title": "Headphones And Hugs",
+          "caption": "The library became softer the second this little selfie happened.",
+          "image": "media/month-3/images/06-headphones-and-hugs.jpg"
+        },
+        {
+          "kicker": "Oct 18",
+          "title": "Black Outfit Mirror Moment",
+          "caption": "A quiet mirror frame with the kind of matching energy that always wins.",
+          "image": "media/month-3/images/07-black-outfit-mirror.jpg"
+        },
+        {
+          "kicker": "Oct 18",
+          "title": "Diwali Bathroom Mirror",
+          "caption": "All dressed up in teal, pink, and black for the Diwali glow-up.",
+          "image": "media/month-3/images/08-diwali-bathroom-mirror.jpg"
+        },
+        {
+          "kicker": "Oct 19",
+          "title": "Diwali Drive",
+          "caption": "A little gift bag, a bright outfit, and the car ride after the celebration.",
+          "image": "media/month-3/images/09-diwali-drive.jpg"
+        },
+        {
+          "kicker": "Oct 19",
+          "title": "Diwali Prayer Moment",
+          "caption": "A soft pause at the mandir corner before the night kept moving.",
+          "image": "media/month-3/images/10-diwali-prayer-moment.jpg"
+        },
+        {
+          "kicker": "Oct 19",
+          "title": "Blue Light Bedroom Mirror",
+          "caption": "The cozy floor mirror scene with blue lights doing half the mood-setting.",
+          "image": "media/month-3/images/11-blue-light-bedroom-mirror.jpg"
+        },
+        {
+          "kicker": "Oct 30",
+          "title": "Blacklight Halloween Glasses",
+          "caption": "Glow-in-the-dark chaos, scary glasses, and exactly the right amount of silly.",
+          "image": "media/month-3/images/12-blacklight-halloween-glasses.jpg"
+        },
+        {
+          "kicker": "Oct 30",
+          "title": "Inside The Giant Pumpkin",
+          "caption": "The Halloween night hero shot: warm orange light, big pumpkin, bigger smiles.",
+          "image": "media/month-3/images/13-inside-the-giant-pumpkin.jpg"
+        },
+        {
+          "kicker": "Oct 30",
+          "title": "Happy Halloween Frame",
+          "caption": "A pumpkin-frame keepsake with fall leaves and both of you tucked right in the middle.",
+          "image": "media/month-3/images/14-happy-halloween-frame.jpg"
+        },
+        {
+          "kicker": "Nov",
+          "title": "Campus Waiting Room",
+          "caption": "A normal school moment that somehow still made the chapter feel sweeter.",
+          "image": "media/month-3/images/15-campus-waiting-room.jpg"
+        },
+        {
+          "kicker": "Nov 11",
+          "title": "Class Table Hand Hold",
+          "caption": "Ash at the desk, hands close, and the quiet comfort of just being there.",
+          "image": "media/month-3/images/16-class-table-hand-hold.jpg"
+        },
+        {
+          "kicker": "Nov 15",
+          "title": "Rose Bear Car Kiss",
+          "caption": "A November car cuddle with the rose bear getting its own cameo.",
+          "image": "media/month-3/images/17-rose-bear-car-kiss.jpg"
+        },
+        {
+          "kicker": "Nov 23",
+          "title": "Sleepy Passenger Seat",
+          "caption": "Sunlight, a hoodie, and the kind of lap nap that says home without saying it.",
+          "image": "media/month-3/images/18-sleepy-passenger-seat.jpg"
+        },
+        {
+          "kicker": "Nov 26",
+          "title": "Late-Night Hoodie Selfie",
+          "caption": "Blurry, cozy, and very November in the best way.",
+          "image": "media/month-3/images/19-late-night-hoodie-selfie.jpg"
+        },
+        {
+          "kicker": "Nov 26",
+          "title": "Rearview Mirror Cuddle",
+          "caption": "A tiny mirror reflection that captured the whole soft car-ride mood.",
+          "image": "media/month-3/images/20-rearview-mirror-cuddle.jpg"
+        },
+        {
+          "kicker": "Nov 30",
+          "title": "First Christmas Lights",
+          "caption": "November closed with a huge glowing tree and one last almost-winter scene.",
+          "image": "media/month-3/images/21-first-christmas-lights.jpg"
+        }
+      ]
+    },
+    {
+      "id": "month-6",
+      "label": "Six Months",
+      "shortLabel": "06",
+      "tagline": "Christmas lights, dinner nights, and half a year",
+      "description": "Six months in, the story got warmer: holiday keepsakes, a quiet temple moment, Indian dinner memories, and a chapter that already knows it is special.",
+      "highlight": "Half-year special",
+      "status": "Renewed, glowing, and still no skips",
+      "previewTitle": "The Holiday Chapter With Us In It",
+      "previewCaption": "A six-month episode with Christmas keepsakes, temple prayers, her roommate's first dinner cameo, and little proof that this only keeps getting cuter.",
+      "profileImage": "media/month-6/images/01-photo-she-kept.jpg",
+      "heroImage": "media/month-6/images/06-reindeer-window-crew.jpg",
+      "items": [
+        {
+          "kicker": "Six Months",
+          "title": "The Photo She Kept",
+          "caption": "A picture of a picture, somehow still carrying the whole soft-launch-to-forever feeling.",
+          "image": "media/month-6/images/01-photo-she-kept.jpg"
+        },
+        {
+          "kicker": "Christmas 2025",
+          "title": "Sar And Ash Ornament",
+          "caption": "The tiny gingerbread version of us: custom names, holiday proof, and absurdly cute shelf energy.",
+          "image": "media/month-6/images/02-sar-ash-ornament.jpg"
+        },
+        {
+          "kicker": "Dinner Selfie",
+          "title": "Close Enough To Be Home",
+          "caption": "One blurry little table selfie with the exact kind of smile that makes the night feel saved.",
+          "image": "media/month-6/images/03-dinner-selfie-smile.jpg"
+        },
+        {
+          "kicker": "Dinner Selfie",
+          "title": "Cheek Kiss Scene",
+          "caption": "A soft cheek kiss, a fake-serious face, and another frame that needed to be in the favorites row.",
+          "image": "media/month-6/images/04-cheek-kiss-scene.jpg"
+        },
+        {
+          "kicker": "Temple Moment",
+          "title": "Sneaky Prayer Candid",
+          "caption": "We were at the temple praying, and I quietly snuck one picture of her because the moment felt too soft not to keep.",
+          "image": "media/month-6/images/05-accidentally-us-candid.jpg"
+        },
+        {
+          "kicker": "Indian Restaurant",
+          "title": "First Dinner With Her Roommate",
+          "caption": "The first time I met her friend and roommate, with all of us out for Indian food and one simple dinner turning into a real six-month memory.",
+          "image": "media/month-6/images/06-reindeer-window-crew.jpg"
+        },
+        {
+          "kicker": "Royal Kabab",
+          "title": "Date Night Poster",
+          "caption": "Dressed up, standing under the sign, looking like the dinner scene got its own promo still.",
+          "image": "media/month-6/images/07-royal-kabab-date-night-upright.jpg"
+        },
+        {
+          "kicker": "After Dinner",
+          "title": "Wood Wall Favorite",
+          "caption": "That warm restaurant-wall photo where the whole month suddenly looks calm, grown-up, and very cute.",
+          "image": "media/month-6/images/08-wood-wall-favorite-upright.jpg"
+        }
+      ]
+    }
+  ]
+}
