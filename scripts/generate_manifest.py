@@ -34,6 +34,13 @@ CAPTIONS = [
     "A scene that absolutely belongs in the permanent favorites list.",
 ]
 
+ITEM_COPY_OVERRIDES = {
+    "08-little-fish-keychains": {
+        "title": "Cute Couple Keychains",
+        "caption": "Just cute couple keychains.",
+    },
+}
+
 
 @dataclass
 class MonthConfig:
@@ -114,6 +121,7 @@ def build_item(
         if not bit.isdigit()
     ]
     derived_title = " ".join(bit.capitalize() for bit in cleaned_bits[:6]).strip()
+    copy_override = ITEM_COPY_OVERRIDES.get(image_path.stem.lower(), {})
     title = derived_title if len(derived_title) >= 5 else TITLES[index % len(TITLES)]
 
     normalized_image = normalize_stem(image_path)
@@ -123,8 +131,11 @@ def build_item(
 
     return {
         "id": f"{month.id}-memory-{index + 1:02d}",
-        "title": title,
-        "caption": CAPTIONS[(index + len(month.label)) % len(CAPTIONS)],
+        "title": copy_override.get("title", title),
+        "caption": copy_override.get(
+            "caption",
+            CAPTIONS[(index + len(month.label)) % len(CAPTIONS)],
+        ),
         "kicker": f"Scene {index + 1:02d}",
         "image": to_web_path(image_path, root),
         "videoOptions": [to_web_path(path, root) for path in matching_videos],
